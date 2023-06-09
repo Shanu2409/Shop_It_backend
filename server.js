@@ -20,7 +20,7 @@ const app = express();
 // //middelwares
 app.use(cors());
 app.use(express.json());
-app.use(morgan("dev"));
+// app.use(morgan("dev"));
 
 //routes
 app.use("/api/v1/auth", authRoutes);
